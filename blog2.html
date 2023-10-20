@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="with=device-wigth, initial-scale =1.0" >
+    <title>BLOG</title>
+    <link rel="stylesheet" href="master2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@300;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous"></head>
+<body>
+<section class="sub-header">
+    <nav>
+        <a href="index2.html"><img src="photos/logo.png" ></a>
+        <div class="nav-links" id="navlinks">
+            <span class="fa" onclick="hidemenu()">&#9776;</span>
+            <ul>
+                <li><a href="index2.html">الرئيسية</a></li>
+                <li><a href="about2.html">عنا</a></li>
+                <li><a href="courses2.html">عنا</a></li>
+                <li><a href="contact.html">تواصل معنا</a></li>
+            </ul>
+        </div>
+        <span class="fa fe" onclick="showmenu()">&#9776;</span>
+    </nav>
+        <h1>our certificate & online programs for 2022</h1>
+</section>
+
+<!---------- blog page content -------->
+
+<section class="blog-content">
+    <div class="blog-left">
+        <img src="certificate.jpg">
+        <h2>our certificate & online programs for 2022</h2>
+        <p>Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Commodi nihil excepturi nostrum iure. Quidem aspernatur veritatis unde,
+            cumque nobis minima sunt quae ex maxime. Suscipit quis consectetur dolores ut amet.</p>
+            <br>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicin
+                g elit. Tempora, hic quisquam, exercitationem ratione molestiae facere in, eius a 
+                repudiandae ex voluptatum eligendi possimus harum. Nesciunt quibusdam debitis impedit earum fuga.</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Ut quod, mollitia magnam placeat cumque, dicta unde, vitae quos excepturi 
+                    explicabo omnis quo possimus aliquam voluptatem iusto expedita. Ipsam, possimus alias.</p>
+                    <br>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Vero porro laboriosam voluptas tempora consequuntur dicta laborum distinctio dolor. 
+                        Laborum aliquam neque ratione.
+                        Exercitationem enim est illo! Excepturi qui totam eaque!</p>
+        <div class="comment-box">
+            <h3>leave a comment</h3>
+            <form class="comment-form">
+                <input type="text" placeholder="Enter your name" required>
+                <input type="email" placeholder="Enter your Email" required>
+                <textarea rows="5" placeholder="your comment" required></textarea>
+                <input type="submit" class="hero-btn red-btn" value="post comment">
+            </form>
+        </div>                  
+    </div>
+</section>
+
+<!--------- footer ------->
+
+<section class="footer">
+    <h4>about us</h4>
+    <P>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Repellendus molestias delectus quaerat eaque similique ducimus <br>
+        voluptas aliquid illum! Officiis quae quas,
+        eum corrupti quis ratione ipsum ullam nisi ut itaque?</P>
+        <div class="icons">
+            <i class="fa-brands fa-instagram fa-bounce"></i>
+            <i class="fa-brands fa-snapchat fa-bounce"></i>
+            <i class="fa-brands fa-facebook fa-bounce"></i>
+        </div>
+        <p>Made by <i class="fa-brands fa-instagram"></i> Abdalrahman Samy</p>
+</section>
+
+
+<!-------- java script for toggle menu -------->
+<script>
+    var navlinks = document.getElementById("navlinks");
+    function showmenu(){
+        navlinks.style.display = "block";
+    }
+    function hidemenu(){
+        navlinks.style.display = "none";
+    }
+    
+</script>
+
+</body>
+</html>

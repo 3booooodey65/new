@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="with=device-wigth, initial-scale =1.0" >
+<title>خدماتنا</title>
+<link rel="stylesheet" href="master2.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@300;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fontawesome.com/icons/bars?f=classic&s=regular&pc=%233464b7">
+</head>
+<body>
+<section class="sub-header">
+    <nav>
+        <a href="index2.html"><img src="photos/logo.png" ></a>
+        <div class="nav-links" id="navlinks">
+            <span class="fa" onclick="hidemenu()">&#9776;</span>
+            <ul>
+                <li><a href="index2.html">الرئيسية</a></li>
+                <li><a href="about2.html">عنا</a></li>
+                <li><a href="blog2.html">BLOG</a></li>
+                <li><a href="contact.html">تواصل معنا</a></li>
+            </ul>
+        </div>
+        <span class="fa fe" onclick="showmenu()">&#9776;</span>
+    </nav>
+        <h1>OUR COURSES</h1>
+</section>
+<!------- course ------->
+<section class="course">
+    <h1>خدماتنا</h1>
+    <p>بعض من أنواع خدماتنا في صيانة الأجهزه التاليه</p>
+    <div class="row">
+        <div class="course-col">
+            <h3>التكييف و التبريد</h3>
+            <p>صيانة التكييف
+                مكيفات مركزي و اسبليت ودولابي و كاسيت تركيب وصيانة وغسيل
+                الثلاجات 
+                ثلاجات منزلية - ثلاجات العرض -فريزر
+                غرف التبريد والتجميد
+                انشاء وتوريد وصيانة غرف التبريد والتجميد</p>
+        </div>
+        <div class="course-col">
+            <h3>الأفران و المخابز</h3>
+            <p>صياانة الافران كهرباء و غاز و صيانة معدات المخابز , فرن بيتزا فرن كونفيكشن صيانة فرن دوار صيانة حراق ديزل وغاز صيانة عجانات فرادات و خمارة </p>
+        </div>
+        <div class="course-col">
+            <h3>الغسالات الأجهزة المنزلية </h3>
+            <p>صيانة جميع انواع غسالات الملابس الاتومتيك وغسالات الصحون والمجفف 
+            </p>
+        </div>
+    </div>
+</section>
+
+
+<!------------------- facilities --------------------->
+
+<section class="facilities">
+    <h1>our facilities</h1>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+    <div class="row">
+        <div class="facilities-col">
+            <img src="library.png">
+            <h3>World Class Library</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="facilities-col">
+            <img src="basketball.png">
+            <h3>Largest Play Ground</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="facilities-col">
+            <img src="cafeteria.png">
+            <h3>Testy and Healthy Food</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+    </div>
+</section>
+
+<!--------- footer ------->
+
+<section class="footer">
+    <h4>عنا</h4>
+    <P>نملك فنيين متخصصين في صيانة جميع أعطال الأجهزةالمنزليه و التكييف و التبريد و معدات المطاعم و الأفران مع وجود الضمانات للحصول على أفضل تجربه</P>
+         <div class="icons">
+            <i class="fa-brands fa-instagram fa-bounce"></i>
+            <i class="fa-brands fa-snapchat fa-bounce"></i>
+            <i class="fa-brands fa-facebook fa-bounce"></i>
+         </div>
+         <p>Made by <i class="fa-brands fa-instagram"></i> Abdalrahman Samy</p>
+</section>
+
+
+<!-------- java script for toggle menu -------->
+<script>
+    var navlinks = document.getElementById("navlinks");
+    function showmenu(){
+        navlinks.style.display = "block";
+    }
+    function hidemenu(){
+        navlinks.style.display = "none";
+    }
+    
+</script>
+
+</body>
+</html>
